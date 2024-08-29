@@ -126,6 +126,33 @@ In a world where shadows and light compete for dominance, an ​enigmatic figure
         <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-6" src="images/DEXTRENDING-LOGO.png" alt="" data-image-width="342" data-image-height="346" data-href="https://dexscreener.com">
         <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-7" src="images/pIxfX8z30qij.png" alt="" data-image-width="250" data-image-height="250" data-href="https://x.com">
       </div>
+
+
+
+      <body>
+        <!-- partial:index.partial.html -->
+        <div id="app" v-cloak>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-control wizard-form-control d-flex align-items-center testing-code px-20px mb-10px">
+                            <span class="title">CA: </span>
+                            <span class="code text-red">0x9d90e39013ca68347f8f9d92f25e914930ce4a8d</span>
+                            <span class="btn btn-info text-white copy-btn ml-auto" @click.stop.prevent="copyTestingCode">
+                      Copy
+                    </span>
+                            <input type="hidden" id="testing-code" :value="testingCode">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- partial -->
+          <script src='https://unpkg.com/vue@2.3.2/dist/vue.js'></script>
+        <script src='https://unpkg.com/prismjs@1.6.0/prism.js'></script><script  src="/script.js"></script>
+        
+        </body>
+
     </section>
 
     <section>
